@@ -1,12 +1,12 @@
-#include <stdio.h>						//bibliotéca padrão
-#include <math.h>						//bibliotéca para operações matemáticas
+#include <stdio.h>						//bibliotÃ©ca padrÃ£o
+#include <math.h>						//bibliotÃ©ca para operaÃ§Ãµes matemÃ¡ticas
 
-int procdTri (int l)					//Procedimento do triângulo
+int procdTri (int l)					//Procedimento do triÃ¢ngulo
 {
-	//VARIÁVEIS
+	//VARIÃVEIS
 	int			lG;
 	int			i, j, h;
-	//INÍCIO
+	//INÃCIO
    
     //Ponta
 	for (j = l; j >= i; j--)
@@ -25,7 +25,7 @@ int procdTri (int l)					//Procedimento do triângulo
 		}
 		printf("/");
 		
-		//Espaço do meio e costas do triângulo
+		//EspaÃ§o do meio e costas do triÃ¢ngulo
 		h = i*2;
 		for (j = 1; j <= h; j++)
 		{
@@ -48,11 +48,11 @@ int procdTri (int l)					//Procedimento do triângulo
 
 int main()								//Main
 {
-	//VARIÁVEIS
+	//VARIÃVEIS
 	int l;
 	
-	//INÍCIO
-	printf("Informe a dimensão do triângulo\n");
+	//INÃCIO
+	printf("Informe a dimensÃ£o do triÃ¢ngulo\n");
 	printf("Valor: ");
 	scanf("%d", &l);
 	
@@ -60,4 +60,3 @@ int main()								//Main
 	
 	return 0;	
 }
-
